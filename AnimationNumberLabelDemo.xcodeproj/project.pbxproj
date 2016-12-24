@@ -14,6 +14,7 @@
 		2F5DD6591E0E14360060AE1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5DD6571E0E14360060AE1C /* LaunchScreen.storyboard */; };
 		2F5DD6641E0E14370060AE1C /* AnimationNumberLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5DD6631E0E14370060AE1C /* AnimationNumberLabelDemoTests.swift */; };
 		2F5DD66F1E0E14370060AE1C /* AnimationNumberLabelDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5DD66E1E0E14370060AE1C /* AnimationNumberLabelDemoUITests.swift */; };
+		2F5DD67D1E0E144E0060AE1C /* UILabel-AnimationNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5DD67C1E0E144E0060AE1C /* UILabel-AnimationNumberLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2F5DD66A1E0E14370060AE1C /* AnimationNumberLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationNumberLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5DD66E1E0E14370060AE1C /* AnimationNumberLabelDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationNumberLabelDemoUITests.swift; sourceTree = "<group>"; };
 		2F5DD6701E0E14370060AE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5DD67C1E0E144E0060AE1C /* UILabel-AnimationNumberLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel-AnimationNumberLabel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		2F5DD6421E0E14360060AE1C = {
 			isa = PBXGroup;
 			children = (
+				2F5DD67C1E0E144E0060AE1C /* UILabel-AnimationNumberLabel.swift */,
 				2F5DD64D1E0E14360060AE1C /* AnimationNumberLabelDemo */,
 				2F5DD6621E0E14370060AE1C /* AnimationNumberLabelDemoTests */,
 				2F5DD66D1E0E14370060AE1C /* AnimationNumberLabelDemoUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				2F5DD6511E0E14360060AE1C /* ViewController.swift in Sources */,
 				2F5DD64F1E0E14360060AE1C /* AppDelegate.swift in Sources */,
+				2F5DD67D1E0E144E0060AE1C /* UILabel-AnimationNumberLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
